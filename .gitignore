@@ -7,4 +7,6 @@
 *.original
 *.zip
 *.out
+*out
+*.idea
 9

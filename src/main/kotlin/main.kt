@@ -1,7 +1,7 @@
-package main.kotlin.services.func
+package main.kotlin
 
 fun returnNothing() {
-    println("main.kotlin.services.func.returnNothing() function")
+    println("main.kotlin.main.func.services.func.returnNothing() function")
 }
 
 fun main() {
@@ -119,5 +119,5 @@ fun string() {
         Kotlin is pragmatic and null safe
     """
     println("$myString")
-    // kotlin never changes the memory allocated to a main.kotlin.services.func.string instead it creates a new main.kotlin.services.func.string
+    // kotlin never changes the memory allocated to a main.kotlin.main.func.services.func.string instead it creates a new main.kotlin.main.func.services.func.string
 }
