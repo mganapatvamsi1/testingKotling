@@ -6,5 +6,5 @@
 *.jar
 *.original
 *.zip
-*.kotlin_module
+*.out
 9
