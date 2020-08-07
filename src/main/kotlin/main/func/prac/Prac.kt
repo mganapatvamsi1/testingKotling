@@ -1,4 +1,5 @@
 package main.func.prac
+
 fun main(args: Array<String>) {
     var x = 1
     when (x) {
