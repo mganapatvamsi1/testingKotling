@@ -1,8 +1,9 @@
 package main.kotlin.main.func
 
+import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@org.springframework.boot.autoconfigure.SpringBootApplication
+@SpringBootApplication
 class TestingKotlinMain {
     fun main(args: Array<String>) {
 //        runApplication<TestingKotlinMain>()
