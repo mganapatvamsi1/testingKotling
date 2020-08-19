@@ -1,15 +1,13 @@
 package main.kotlin.main.func.conf
 
-class Test {
+fun main(args: Array<String>) {
+    string()
+    prac()
+    ifCond()
+}
 
     fun returnNothing() {
         println("main.func.conf.main.kotlin.main.func.conf.main.func.services.func.returnNothing() function")
-    }
-
-    fun main() {
-        string()
-        prac()
-        ifCond()
     }
 
     fun ifCond() {
@@ -123,4 +121,3 @@ class Test {
         println("$myString")
         // kotlin never changes the memory allocated to a main.func.conf.main.kotlin.main.func.conf.main.func.services.func.string instead it creates a new main.func.conf.main.kotlin.main.func.conf.main.func.services.func.string
     }
-}
