@@ -1,4 +1,4 @@
-package main.kotlin.main.func
+package main.func
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

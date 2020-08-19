@@ -25,6 +25,4 @@ fun main() {
     }
     println("has ford? ${"ford" in cars}")
     println("has 2000? ${2000 in cars.values}")
-
-
 }

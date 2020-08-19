@@ -24,4 +24,12 @@ fun main() {
     println("listToSet = $listToSet")
     val listToSortedSet =items.toSortedSet()
     println("listToSortedSet = $listToSortedSet")
+    println()
+
+    val animals = listOf("apple", "biscuit","apple",
+        "cat","cat", "cat","dog", "elephant","fox", "goat","elephant")
+    println("animals = $animals")
+    val animalListToSet = animals.toSet()
+    println("animalListToSet = $animalListToSet")
+
 }
