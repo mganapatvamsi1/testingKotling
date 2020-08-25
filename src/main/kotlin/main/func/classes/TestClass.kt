@@ -15,7 +15,7 @@ class CourseProperty(courseTitle: String) {
     val title = courseTitle
 }
 
-class Person(firstName: String, lastName: String, age: Int) {}
+class Person1(firstName: String, lastName: String, age: Int) {}
 
 class Course(courseTitle: String) {
     private val title = courseTitle
