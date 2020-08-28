@@ -9,7 +9,7 @@ fun main() {
 }
 
 fun reader() = runBlocking {
-    val d1 = async { readFile("resources/the_whale.txt")}
+    val d1 = async { readFile("the_whale.txt")}
     d1.await().forEach { println(it) }
 }
 
