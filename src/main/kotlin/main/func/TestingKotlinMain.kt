@@ -4,7 +4,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TestingKotlinMain {
+open class TestingKotlinMain {
     fun main(args: Array<String>) {
 //        runApplication<TestingKotlinMain>()
         runApplication<TestingKotlinMain>(*args)
