@@ -3,15 +3,16 @@ package main.func.nulls
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils
 
 
-class Services {
+open class Services{
     fun evaluate() {
         println("testing super class")
     }
+
 }
 
 class ServiceProvider {
     fun createServices(): Services? {
-        TODO("to be implemented")
+        return Services()
     }
 }
 
@@ -21,9 +22,9 @@ fun main(args: Array<String>) {
     println(message?.length)
 
     val serviceProvider = PolicyUtils.ServiceProvider()
-    println(serviceProvider.createServices()?.evaluate())
+  //  println(serviceProvider.createServices()?.evaluate())
     val csp = createsServiceProvider()
-   println(csp?.createServices()?.evaluate())
+  //  println(csp?.createServices()?.evaluate())
 
 }
 
