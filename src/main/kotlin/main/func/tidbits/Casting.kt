@@ -4,7 +4,7 @@ open class Person {
 
 }
 
-class Employee: Person() {
+class Employee : Person() {
     fun vacationDays(days: Int) {
         if (days < 30) {
             println("We need more vacation")
@@ -12,7 +12,7 @@ class Employee: Person() {
     }
 }
 
-class Contractor: Person() {
+class Contractor : Person() {
 
 }
 

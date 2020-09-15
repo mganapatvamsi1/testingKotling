@@ -29,14 +29,15 @@ fun main(args: Array<String>) {
     println(b)
     println()
     println()
-    val (e, f,g) = countryInformation("india")
+    val (e, f, g) = countryInformation("india")
     println(e)
     println(f)
     println(g)
     println()
     println()
 
-    val listOfCapitalsAndCountries = listOf(Pair("newDelhi", "India"),"Kathmandu" to "Nepal", "WashingtonDC" to "UnitedStates")
+    val listOfCapitalsAndCountries =
+        listOf(Pair("newDelhi", "India"), "Kathmandu" to "Nepal", "WashingtonDC" to "UnitedStates")
     for ((capital, country) in listOfCapitalsAndCountries) {
         println("$capital - $country")
     }
